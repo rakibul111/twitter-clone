@@ -1,16 +1,16 @@
-import './App.css';
+import React from 'react'
 import Sidebar from './Sidebar';
+import Feed from './Feed'
+import Widgets from './Widgets'
+import './App.css';
 
 function App() {
   return (
     //BEM Convention
     <div className="app">
-      <h1>Lets build twitter....</h1>
-      {/* Sidebar */}
       <Sidebar />
-
-      {/* Feed */}
-      {/* Widgets */}
+      <Feed />
+      <Widgets />
     </div>
   );
 }
